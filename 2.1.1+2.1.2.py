@@ -368,7 +368,8 @@ class InputConnect:
         elif tabular_data == 'Статистика':
             rez_xml.sozdan_png()
         else:
-            print("Вы ввели некорректное значение")
+            ssdaf = "Вы ввели некорректное значение"
+            print(ssdaf)
 
 
 if __name__ == '__main__':

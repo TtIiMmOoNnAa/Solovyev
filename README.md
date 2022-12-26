@@ -4,11 +4,11 @@ SOLOVYEV
 
 Проверка доктестов
 
-![](png/2.3.21.png)
+![](png/z2.3.21.png)
 
 Проверка юниттестов
 
-![](png/2.3.22.png)
+![](png/z2.3.22.png)
 
 2.3.3
 
@@ -16,16 +16,16 @@ SOLOVYEV
 
 С помощью обрезания строки ".".join(date[:4].split("-"))
 
-![](png/z2.3.31.png)
+![](png/zz2.3.31.png)
 
 2-й вариант
 
 С помощью big.split('-') new_data = int(year)
 
-![](png/z2.3.32.png)
+![](png/zz2.3.32.png)
 
 3-й вариант
 
 С помощью datetime.strptime(date, '%Y-%m-%dT%H:%M:%S%z').strftime("%Y")
 
-![](png/z2.3.33.png)
+![](png/zz2.3.33.png)

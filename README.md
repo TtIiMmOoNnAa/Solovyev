@@ -29,3 +29,5 @@ SOLOVYEV
 С помощью datetime.strptime(date, '%Y-%m-%dT%H:%M:%S%z').strftime("%Y")
 
 ![](png/2.3.33.png)
+
+Самый быстрый способ, с помощью обрезания строки ".".join(date[:4].split("-"))

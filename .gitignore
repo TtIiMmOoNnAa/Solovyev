@@ -1,4 +1,3 @@
-*.csv
-.idea
-/venv
 /.idea
+/venv
+vacancies.csv

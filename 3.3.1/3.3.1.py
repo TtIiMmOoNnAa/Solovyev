@@ -43,7 +43,7 @@ dataframe_kur = dataframe_kur.apply(lambda kurs: kurs if kurs >= 5000 else False
 ss1 = "published_at"
 start_date = dataframe[ss1].min()[:7].split("-")
 final_date = dataframe[ss1].max()[:7].split("-")
-rr = ["date", "BYR", "USD", "EUR", "KZT", "UAH"]
+rr = ["date", "BYR", "EUR", "KZT", "UAH", "USD"]
 kurs_val_k_rub_f = pd.DataFrame(columns=rr)
 a1, a2 = 2003, 2023
 for god in range(a1, a2):
@@ -67,5 +67,3 @@ for god in range(a1, a2):
                 sss = f"{mesyc}/{god}"
                 obrabotka_dataframe(sss)
 kurs_val_k_rub_f.to_csv("kurs_k_rub_ves_api.csv", index=False)
-print(kurs_val_k_rub_f["salary_currency"].value_counts())
-

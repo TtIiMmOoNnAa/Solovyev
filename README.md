@@ -44,4 +44,4 @@ SOLOVYEV
 
 ![](png/3.3.11.png)
 
-![](png/3.3.21.png)
+![](png/3.3.12.png)
